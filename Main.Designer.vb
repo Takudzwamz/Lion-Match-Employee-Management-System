@@ -56,8 +56,9 @@ Partial Class Main
         Me.PanelMenu.Controls.Add(Me.PanelLogo)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 0)
+        Me.PanelMenu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(220, 734)
+        Me.PanelMenu.Size = New System.Drawing.Size(293, 903)
         Me.PanelMenu.TabIndex = 3
         '
         'IconButton6
@@ -71,11 +72,12 @@ Partial Class Main
         Me.IconButton6.IconColor = System.Drawing.Color.Gainsboro
         Me.IconButton6.IconSize = 32
         Me.IconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton6.Location = New System.Drawing.Point(0, 380)
+        Me.IconButton6.Location = New System.Drawing.Point(0, 468)
+        Me.IconButton6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconButton6.Name = "IconButton6"
-        Me.IconButton6.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton6.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.IconButton6.Rotation = 0R
-        Me.IconButton6.Size = New System.Drawing.Size(220, 60)
+        Me.IconButton6.Size = New System.Drawing.Size(293, 74)
         Me.IconButton6.TabIndex = 6
         Me.IconButton6.Text = "Close Window"
         Me.IconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -93,11 +95,12 @@ Partial Class Main
         Me.IconButton4.IconColor = System.Drawing.Color.Gainsboro
         Me.IconButton4.IconSize = 32
         Me.IconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton4.Location = New System.Drawing.Point(0, 320)
+        Me.IconButton4.Location = New System.Drawing.Point(0, 394)
+        Me.IconButton4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconButton4.Name = "IconButton4"
-        Me.IconButton4.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton4.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.IconButton4.Rotation = 0R
-        Me.IconButton4.Size = New System.Drawing.Size(220, 60)
+        Me.IconButton4.Size = New System.Drawing.Size(293, 74)
         Me.IconButton4.TabIndex = 4
         Me.IconButton4.Text = "Deductions"
         Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -115,11 +118,12 @@ Partial Class Main
         Me.IconButton3.IconColor = System.Drawing.Color.Gainsboro
         Me.IconButton3.IconSize = 32
         Me.IconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton3.Location = New System.Drawing.Point(0, 260)
+        Me.IconButton3.Location = New System.Drawing.Point(0, 320)
+        Me.IconButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconButton3.Name = "IconButton3"
-        Me.IconButton3.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton3.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.IconButton3.Rotation = 0R
-        Me.IconButton3.Size = New System.Drawing.Size(220, 60)
+        Me.IconButton3.Size = New System.Drawing.Size(293, 74)
         Me.IconButton3.TabIndex = 3
         Me.IconButton3.Text = "Allowances"
         Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -137,11 +141,12 @@ Partial Class Main
         Me.IconButton2.IconColor = System.Drawing.Color.Gainsboro
         Me.IconButton2.IconSize = 32
         Me.IconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton2.Location = New System.Drawing.Point(0, 200)
+        Me.IconButton2.Location = New System.Drawing.Point(0, 246)
+        Me.IconButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconButton2.Name = "IconButton2"
-        Me.IconButton2.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton2.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.IconButton2.Rotation = 0R
-        Me.IconButton2.Size = New System.Drawing.Size(220, 60)
+        Me.IconButton2.Size = New System.Drawing.Size(293, 74)
         Me.IconButton2.TabIndex = 2
         Me.IconButton2.Text = "Employees"
         Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -159,11 +164,12 @@ Partial Class Main
         Me.IconButton1.IconColor = System.Drawing.Color.Gainsboro
         Me.IconButton1.IconSize = 32
         Me.IconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton1.Location = New System.Drawing.Point(0, 140)
+        Me.IconButton1.Location = New System.Drawing.Point(0, 172)
+        Me.IconButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconButton1.Name = "IconButton1"
-        Me.IconButton1.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton1.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.IconButton1.Rotation = 0R
-        Me.IconButton1.Size = New System.Drawing.Size(220, 60)
+        Me.IconButton1.Size = New System.Drawing.Size(293, 74)
         Me.IconButton1.TabIndex = 1
         Me.IconButton1.Text = "Employee Registration"
         Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -175,16 +181,18 @@ Partial Class Main
         Me.PanelLogo.Controls.Add(Me.imgHome)
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelLogo.Location = New System.Drawing.Point(0, 0)
+        Me.PanelLogo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelLogo.Name = "PanelLogo"
-        Me.PanelLogo.Size = New System.Drawing.Size(220, 140)
+        Me.PanelLogo.Size = New System.Drawing.Size(293, 172)
         Me.PanelLogo.TabIndex = 0
         '
         'imgHome
         '
         Me.imgHome.Image = CType(resources.GetObject("imgHome.Image"), System.Drawing.Image)
-        Me.imgHome.Location = New System.Drawing.Point(0, 0)
+        Me.imgHome.Location = New System.Drawing.Point(4, 4)
+        Me.imgHome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.imgHome.Name = "imgHome"
-        Me.imgHome.Size = New System.Drawing.Size(220, 140)
+        Me.imgHome.Size = New System.Drawing.Size(293, 172)
         Me.imgHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imgHome.TabIndex = 0
         Me.imgHome.TabStop = False
@@ -195,18 +203,20 @@ Partial Class Main
         Me.Panel1.Controls.Add(Me.formTitle)
         Me.Panel1.Controls.Add(Me.IconCurrentForm)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(220, 0)
+        Me.Panel1.Location = New System.Drawing.Point(293, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1029, 75)
+        Me.Panel1.Size = New System.Drawing.Size(1372, 92)
         Me.Panel1.TabIndex = 4
         '
         'formTitle
         '
         Me.formTitle.AutoSize = True
         Me.formTitle.ForeColor = System.Drawing.Color.Gainsboro
-        Me.formTitle.Location = New System.Drawing.Point(84, 32)
+        Me.formTitle.Location = New System.Drawing.Point(105, 53)
+        Me.formTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formTitle.Name = "formTitle"
-        Me.formTitle.Size = New System.Drawing.Size(35, 13)
+        Me.formTitle.Size = New System.Drawing.Size(45, 17)
         Me.formTitle.TabIndex = 1
         Me.formTitle.Text = "Home"
         '
@@ -217,10 +227,11 @@ Partial Class Main
         Me.IconCurrentForm.ForeColor = System.Drawing.Color.Purple
         Me.IconCurrentForm.IconChar = FontAwesome.Sharp.IconChar.Home
         Me.IconCurrentForm.IconColor = System.Drawing.Color.Purple
-        Me.IconCurrentForm.IconSize = 75
+        Me.IconCurrentForm.IconSize = 92
         Me.IconCurrentForm.Location = New System.Drawing.Point(0, 0)
+        Me.IconCurrentForm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.IconCurrentForm.Name = "IconCurrentForm"
-        Me.IconCurrentForm.Size = New System.Drawing.Size(1029, 75)
+        Me.IconCurrentForm.Size = New System.Drawing.Size(1372, 92)
         Me.IconCurrentForm.TabIndex = 0
         Me.IconCurrentForm.TabStop = False
         '
@@ -229,33 +240,36 @@ Partial Class Main
         Me.PanelDesktop.BackColor = System.Drawing.Color.MidnightBlue
         Me.PanelDesktop.Controls.Add(Me.PictureBox1)
         Me.PanelDesktop.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelDesktop.Location = New System.Drawing.Point(220, 75)
+        Me.PanelDesktop.Location = New System.Drawing.Point(293, 92)
+        Me.PanelDesktop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelDesktop.Name = "PanelDesktop"
-        Me.PanelDesktop.Size = New System.Drawing.Size(1029, 659)
+        Me.PanelDesktop.Size = New System.Drawing.Size(1372, 811)
         Me.PanelDesktop.TabIndex = 6
         '
         'PictureBox1
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(397, 129)
+        Me.PictureBox1.Location = New System.Drawing.Point(535, 171)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(220, 252)
+        Me.PictureBox1.Size = New System.Drawing.Size(293, 310)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'Main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1249, 734)
+        Me.ClientSize = New System.Drawing.Size(1665, 903)
         Me.Controls.Add(Me.PanelDesktop)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PanelMenu)
         Me.ForeColor = System.Drawing.Color.MidnightBlue
         Me.IsMdiContainer = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Main"
